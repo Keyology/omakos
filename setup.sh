@@ -134,19 +134,19 @@ chapter "Setting up SSH…"
 source ./scripts/ssh.sh
 
 ###############################################################################
-# SETUP: Rubocop
+# SETUP: Rubocop TODO: REMOVE
 ###############################################################################
 chapter "Setting up Rubocop…"
 source ./scripts/rubocop.sh
 
 ###############################################################################
-# SETUP: Gemrc
+# SETUP: Gemrc TODO: REMOVE
 ###############################################################################
 chapter "Setting up Gem configuration…"
 source ./scripts/gemrc.sh
 
 ###############################################################################
-# SETUP: IRB
+# SETUP: IRB TODO: REMOVE
 ###############################################################################
 chapter "Setting up IRB configuration…"
 source ./scripts/irbrc.sh

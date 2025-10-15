@@ -1,0 +1,16 @@
+after-startup-command = ["layout tiling", "focus-monitor 1"]
+
+# keys (Caps -> Hyper via Karabiner: ctrl+opt+cmd+shift)
+[mode.main.binding]
+"hyper-h" = "focus left"
+"hyper-j" = "focus down"
+"hyper-k" = "focus up"
+"hyper-l" = "focus right"
+"hyper-enter" = "toggle float"
+"hyper-f" = "fullscreen"
+"hyper-," = "balance-sizes"
+"hyper-[" = "workspace prev"
+"hyper-]" = "workspace next"
+"hyper-1" = "workspace 1"
+"hyper-2" = "workspace 2"
+"hyper-3" = "workspace 3"
