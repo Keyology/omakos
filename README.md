@@ -113,7 +113,6 @@ All packages are managed through Homebrew and defined in [`configs/Brewfile`](co
 - [Zoom](https://zoom.us/) for video conferencing
 
 ### Fonts
-
 - Cascadia Code
 - Cascadia Mono
 - Commit Mono

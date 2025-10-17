@@ -1,5 +1,6 @@
 # Packages
 brew tap "mongodb/brew"
+brew tap "FelixKratz/formulae"
 brew "gnu-sed"
 brew "btop"
 brew "coreutils"
@@ -42,6 +43,10 @@ brew "duf"
 brew "httpie"
 brew "llama.cpp"
 brew "cmake"
+brew "duf"
+brew "aria2"
+brew "stats"
+brew "borders"
 
 
 

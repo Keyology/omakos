@@ -134,22 +134,47 @@ chapter "Setting up SSH…"
 source ./scripts/ssh.sh
 
 ###############################################################################
-# SETUP: Rubocop TODO: REMOVE
+# SETUP: Removing Bloatware
 ###############################################################################
-chapter "Setting up Rubocop…"
-source ./scripts/rubocop.sh
+chapter "Removing Bloatware…"
+source ./scripts/removeBloatware.sh
 
 ###############################################################################
-# SETUP: Gemrc TODO: REMOVE
+# SETUP: Keybindings
 ###############################################################################
-chapter "Setting up Gem configuration…"
-source ./scripts/gemrc.sh
+chapter "Setting up Keybindings…"
+source ./scripts/keybindings.sh
 
 ###############################################################################
-# SETUP: IRB TODO: REMOVE
+# SETUP: mlx / PyTorch-MPS / Transformers
 ###############################################################################
-chapter "Setting up IRB configuration…"
-source ./scripts/irbrc.sh
+chapter "Setting up mlx / PyTorch-MPS / Transformers…"
+source ./scripts/mlx.sh
+
+###############################################################################
+# SETUP: node Toolchain
+###############################################################################
+chapter "Setting up node Toolchain…"
+source ./scripts/nodeToolChain.sh
+
+
+###############################################################################
+# SETUP: Python Toolchain
+###############################################################################
+chapter "Setting up Python Toolchain…"
+source ./scripts/pythonToolChain.sh
+
+###############################################################################
+# SETUP: Rust Toolchain
+###############################################################################
+chapter "Setting up Rust Toolchain…"
+source ./scripts/rustToolChain.sh
+
+###############################################################################
+# SETUP: Window Management
+###############################################################################
+chapter "Setting up Window Management…"
+source ./scripts/windowManagement.sh
 
 ###############################################################################
 # SETUP: Zshrc
