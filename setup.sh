@@ -103,11 +103,7 @@ source ./scripts/brew.sh
 chapter "Setting up ZSH…"
 source ./scripts/zsh.sh
 
-###############################################################################
-# SETUP: Cursor
-###############################################################################
-chapter "Setting up Cursor…"
-source ./scripts/cursor.sh
+
 
 ###############################################################################
 # SETUP: Neovim
@@ -143,7 +139,7 @@ source ./scripts/removeBloatware.sh
 # SETUP: Keybindings
 ###############################################################################
 chapter "Setting up Keybindings…"
-source ./scripts/keybindings.sh
+source ./scripts/keybinding.sh
 
 ###############################################################################
 # SETUP: mlx / PyTorch-MPS / Transformers
