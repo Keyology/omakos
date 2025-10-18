@@ -1,7 +1,6 @@
 # Packages
 tap "mongodb/brew"
 tap "FelixKratz/formulae"
-brew "update"
 brew "gnu-sed"
 brew "btop"
 brew "coreutils"
@@ -46,7 +45,7 @@ brew "llama.cpp"
 brew "cmake"
 brew "duf"
 brew "aria2"
-brew "borders"
+brew "uv"
 
 
 
@@ -54,7 +53,6 @@ brew "borders"
 cask "brave-browser"
 cask "chatgpt"
 cask "claude"
-cask "cursor"
 cask "ghostty"
 cask "iina"
 cask "iterm2"
