@@ -103,8 +103,6 @@ source ./scripts/brew.sh
 chapter "Setting up ZSH…"
 source ./scripts/zsh.sh
 
-
-
 ###############################################################################
 # SETUP: Neovim
 ###############################################################################
@@ -130,6 +128,13 @@ chapter "Setting up SSH…"
 source ./scripts/ssh.sh
 
 ###############################################################################
+# SETUP: Pingu
+###############################################################################
+chapter "Setting up pingu…"
+source ./scripts/pingu.sh
+
+
+###############################################################################
 # SETUP: Removing Bloatware
 ###############################################################################
 chapter "Removing Bloatware…"
@@ -142,17 +147,10 @@ chapter "Setting up Keybindings…"
 source ./scripts/keybinding.sh
 
 ###############################################################################
-# SETUP: mlx / PyTorch-MPS / Transformers
-###############################################################################
-chapter "Setting up mlx / PyTorch-MPS / Transformers…"
-source ./scripts/mlx.sh
-
-###############################################################################
-# SETUP: node Toolchain
+# SETUP: Node Toolchain
 ###############################################################################
 chapter "Setting up node Toolchain…"
 source ./scripts/nodeToolChain.sh
-
 
 ###############################################################################
 # SETUP: Python Toolchain
@@ -165,12 +163,6 @@ source ./scripts/pythonToolChain.sh
 ###############################################################################
 chapter "Setting up Rust Toolchain…"
 source ./scripts/rustToolChain.sh
-
-###############################################################################
-# SETUP: Window Management
-###############################################################################
-chapter "Setting up Window Management…"
-source ./scripts/windowManagement.sh
 
 ###############################################################################
 # SETUP: Zshrc

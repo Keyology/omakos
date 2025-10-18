@@ -22,19 +22,6 @@ sudo rm -rf "/Library/Audio/Apple Loops" || true
 sudo rm -rf "/Library/Audio/Apple Loops Index" || true
 rm -rf "$HOME/Library/Application Support/GarageBand" || true
 
-# ---------- Dock: keep ONLY Launchpad ----------
-log "Clearing Dock and keeping only Launchpad"
-# Clear both app side and stack side
-defaults write com.apple.dock persistent-apps -array
-defaults write com.apple.dock persistent-others -array
-
-# Add Launchpad back (apps side)
-defaults write com.apple.dock persistent-apps -array-add \
-'{"tile-data"={"file-data"={"_CFURLString"="/System/Applications/Launchpad.app";"_CFURLStringType"=0;};};"tile-type"="file-tile";}'
-
-killall Dock || true
-
-log "Keeping AirPlay enabled (no changes made)"
 
 log "Disabling background agents for built-in apps you don't want (per-user)"
 disable() { launchctl disable "gui/$UID/$1" 2>/dev/null || true; }

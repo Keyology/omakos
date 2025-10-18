@@ -46,6 +46,8 @@ brew "cmake"
 brew "duf"
 brew "aria2"
 brew "uv"
+brew "node"
+brew "pipx"
 
 
 
